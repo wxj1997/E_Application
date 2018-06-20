@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.bumptech.glide.Glide;
 import com.example.wxj.e_application.R;
 
 import cn.jzvd.JZVideoPlayer;
