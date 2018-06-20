@@ -38,4 +38,6 @@ dependencies {
 
     compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
 
+    compile 'cn.jzvd:jiaozivideoplayer:6.2.9'
+
 }

@@ -20,10 +20,10 @@ public class NewsAdapter extends BaseQuickAdapter<News, BaseViewHolder> {
 
     @Override
     protected void convert(BaseViewHolder helper, News item) {
-        helper.setText(R.id.tv_tittle, item.getTitle());
-        helper.setText(R.id.tv_content, item.getContent());
+        helper.setText(R.id.news_title, item.getTitle());
+        helper.setText(R.id.news_content, item.getContent());
         Glide.with(mContext).load(item.getImageUrl()).into((ImageView) helper.getView(R.id
-                .image_view));
+                .news_thumb));
 
     }
 }
