@@ -2,7 +2,7 @@ package com.example.wxj.e_application.adapter;
 
 import android.support.annotation.LayoutRes;
 import android.support.annotation.Nullable;
-import android.support.v7.widget.RecyclerView;
+
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
